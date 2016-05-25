@@ -28,7 +28,8 @@ $this->params['breadcrumbs'][] = $this->title;
             'company_name',
             'company_email:email',
             'company_adress',
-            'company_created_date',
+            'company_start_date',
+            // 'company_created_date',
             // 'company_status',
 
             ['class' => 'yii\grid\ActionColumn'],
