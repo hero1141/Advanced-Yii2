@@ -14,7 +14,7 @@ use backend\models\Companies;
 
     <?php $form = ActiveForm::begin(); ?>
 
-  
+
     <?= $form->field($model,'companies_company_id')->dropDownList(
         ArrayHelper::map(Companies::find()->all(),'company_id','company_name'),
         ['prompt' => 'Select Company']
